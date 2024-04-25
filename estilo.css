@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom, #74bc7dee, #fff);
+    background-image: linear-gradient(to bottom, #D6D6D6, #fff);
 }
 
 .principal {
@@ -11,27 +11,47 @@ body {
     padding: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: url("fundo-aquarela-verde-ambiente-com-ilustracao-da-borda-da-folha.jpg");
-    /* background-repeat: no-repeat; */
+    background-image: url("Convite\ de\ Bodas\ de\ Prata\ Renovação\ de\ Votos\ \(1\).png");
     background-size: 100%;
     border-radius: 8px;
     box-shadow: 10 0 10px rgba(0.2, 0.2, 0.2, 0.8);
     text-align: center;
 }
 
+p{
+    color: #A6A6A6;
+    font-family: "Satisfy", cursive;
+    margin: 0px;
+}
+
 h1 {
     font-family: "Cinzel", serif;
+    font-size: xx-large;
+    color: #A6A6A6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.e{
+    font-size: 40px;
 }
 
 h2{
-    font-family: "Cinzel", serif; 
+    font-family: "Cinzel", serif;
+    color: #A6A6A6;
+    margin-top: 0;
+}
+
+.texto{
+    color: #A6A6A6;
+    font-family: "Satisfy", cursive;
 }
 
 .mapa {
     width: 600px;
     margin: 50px auto;
     padding: 5px;
-    background-color: #74bc7dee;
+    background-color: #D6D6D6;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.563);
 }
@@ -51,32 +71,53 @@ footer{
     font-family: "Satisfy", cursive;
 }
 @media (max-width: 767px) {
-    .principal {    
+    .principal {  
         padding: 10px;
+        padding-top: 50px;
         margin: 10px;
-        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
     }
 
+    .principal img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .texto{
+        font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    
     .mapa {
-        margin: 10px auto;
-        width: 300px;
-        height: 400px;
+        margin: 10px auto;  
+        width: 200px;
+        height: 200px;
     }
     
     .mapa iframe{
-        width: 300px;
-        height: 400px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .texto p{
+        margin: 5px;
     }
 
     h1 {
-        font-size: 24px;
+        font-size: xx-large;;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     p {
         font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
