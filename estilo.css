@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #74bc7dee, #fff);
+}
+
+.principal {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("fundo-aquarela-verde-ambiente-com-ilustracao-da-borda-da-folha.jpg");
+    background-size: 100%;
+    border-radius: 8px;
+    box-shadow: 10 0 10px rgba(0.2, 0.2, 0.2, 0.8);
+    text-align: center;
+}
+
+h1 {
+    font-family: "Cinzel", serif;
+}
+
+h2{
+    font-family: "Cinzel", serif; 
+}
+
+.mapa {
+    width: 600px;
+    margin: 50px auto;
+    padding: 5px;
+    background-color: #74bc7dee;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.563);
+}
+
+.mapa iframe{
+    border-radius: 5px;
+}
+
+.mapa :hover{
+    transform: scale(1.1);
+}
+
+footer{
+    text-align: center;
+    font-family: "Satisfy", cursive;
+}
