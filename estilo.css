@@ -18,6 +18,10 @@ body {
     text-align: center;
 }
 
+.principal img{
+    padding-top: 8rem;
+}
+
 p{
     color: #A6A6A6;
     font-family: "Satisfy", cursive;
@@ -76,14 +80,13 @@ footer{
         padding-top: 50px;
         height: fit-content;
         margin: 10px;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
         background-size: 100% 100%;
     }
 
     .principal img{
         width: 100px;
         height: 100px;
+        padding-top: 1rem;
     }
     
     .texto{
