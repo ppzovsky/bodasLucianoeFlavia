@@ -74,6 +74,7 @@ footer{
     .principal {  
         padding: 10px;
         padding-top: 50px;
+        height: fit-content;
         margin: 10px;
         background-repeat: no-repeat;
         background-attachment: fixed;
